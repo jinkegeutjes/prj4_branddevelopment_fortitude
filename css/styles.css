@@ -275,6 +275,8 @@ pre {
   margin-bottom: 1rem;
   overflow: auto;
   font-size: 0.875em;
+	
+
 }
 pre code {
   font-size: inherit;
@@ -636,8 +638,8 @@ progress {
 .container-lg,
 .container-md,
 .container-sm {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
+  -bs-gutter-x: 1.5rem;
+  -bs-gutter-y: 0;
   width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
@@ -646,8 +648,7 @@ progress {
 }
 
 @media (min-width: 576px) {
-  .container-sm, .container {
-    max-width: 540px;
+  .container-sm, .container {max-width: 540px;
   }
 }
 @media (min-width: 768px) {
@@ -3810,7 +3811,7 @@ textarea.form-control-lg {
 }
 .navbar-text a,
 .navbar-text a:hover,
-.navbar-text a:focus {
+.navbar-text a:focus 
   color: var(--bs-navbar-active-color);
 }
 
@@ -4168,7 +4169,7 @@ textarea.form-control-lg {
   --bs-card-height: ;
   --bs-card-color: ;
   --bs-card-bg: #fff;
-  --bs-card-img-overlay-padding: 1rem;
+  --bs-card-img-overlay-padding: 3rem;
   --bs-card-group-margin: 0.75rem;
   position: relative;
   display: flex;
@@ -10923,7 +10924,7 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 3rem;
+    height:4rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -11132,7 +11133,7 @@ header.masthead .masthead-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #A695E0;
+  background-color:#82AEB1
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
     font-size: 10px;
@@ -11266,7 +11267,7 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: #76B4B3;
+  background-color: 
   background-image: url("../assets/map-image.png")
   background-repeat: no-repeat;
   background-position: center;
