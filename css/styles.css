@@ -10956,7 +10956,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-	background-color: #90D4FF;
+	background-color: #93C6D6;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -10983,7 +10983,7 @@ header.masthead .masthead-heading {
     font-style: italic;
     line-height: 2.25rem;
     margin-bottom: 2rem;
-    color: #0A0A0A;
+    color: #668586;
   }
   header.masthead .masthead-heading {
     font-size: 4.5rem;
